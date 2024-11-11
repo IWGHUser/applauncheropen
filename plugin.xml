@@ -30,6 +30,7 @@
 			</config-file>
 			<header-file src="src/ios/Launcher.h" />
 			<source-file src="src/ios/Launcher.m" />
+		
 	</platform>
 
 	<!-- android -->
@@ -41,5 +42,12 @@
 			</config-file>
 			<source-file src="src/android/Launcher.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
 			<source-file src="src/android/ParseTypes.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
+
+           <config-file target="AndroidManifest.xml" parent="/manifest">
+		<queries>
+		<package android:name="com.outsystemsenterprise.preididev.DriversBackgroundLocation"/>
+		</queries>
+	   </config-file>
+		
 	</platform>
 </plugin>
