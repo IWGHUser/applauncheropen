@@ -45,7 +45,7 @@
 
            <config-file target="AndroidManifest.xml" parent="/manifest">
 		<queries>
-		<package android:name="com.outsystemsenterprise.preididev.DriversBackgroundLocation"/>
+		<package android:name="com.outsystemsenterprise.preididev.driversbackgroundlocation"/>
 		</queries>
 	   </config-file>
 		
